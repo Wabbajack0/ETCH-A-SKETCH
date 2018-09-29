@@ -20,7 +20,6 @@ for (let i = 0; i < radioButtons.length; i++) {
 function createGrid() {
   let divSize = WINDOW_SIZE / (Math.sqrt(gridSize)) - 2;
   for (let i = 0; i < gridSize; i++) {
-    console.log('what');
     divsArray[i] = document.createElement('div');
     divsArray[i].style.height = divSize + 'px';
     divsArray[i].style.width = divSize + 'px';
